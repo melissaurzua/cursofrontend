@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Northside Youth Soccer League</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="./assets/favicon.ico">
+        <link href="css/nysl_3.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="./assets/nysl_logo.png" alt="logo" class="logo">
+            <div class="menu">
+                <a href="./index.html">Home</a>
+                 <a href="./about.html">About</a>
+                 <a href="./calendario.html">Calendar</a>
+                 <a href="./reglas.html">Rules</a>
+                 <a href="./registration.html"class="active" id="active">Registration</a>
+                <a href="./contact.html">Contact</a>
+            </div>            
+
+        </header>
+        <div class="encabezado">
+            <img src="./assets/design2_image1.jpg" alt="Imagen2" class="img2">
+        <h1>Northside Youth Soccer League</h1>
+        </div>
+
+            <div class="contenedor">
+                <br><br>
+                <h2>Formulario de Inscripción</h2>
+                <br>
+                <div class="formulario">
+                    <div class="form">
+                        <label> Nombre del Jugador:</label>
+                        <input type="text" id="camponombre"  placeholder=" Ingrese su nombre" />
+                    
+                        <label class="right-inline">Apellido: </label>
+                        <input type="text" id="campoapellido"  placeholder=" Ingrese su apellido" />
+                      </div>
+                    
+                      <div class="form">
+                        <label>Dirección: </label>
+                        <input type="text" id="campodireccion"  placeholder=" Ingrese su dirección" />
+                      </div>
+                    
+                      <div class="form">
+                        <label>Ciudad: </label>
+                        <input type="text" id="campociudad"  placeholder=" Ingrese su Ciudad" />
+                    
+                        <label class="right-inline">Código Postal:</label>
+                        <input type="text" id="campopostal"  placeholder=" Ingrese su Código Postal" />
+                      </div>
+
+                      <div class="form">
+                        <label>Fecha de Nacimiento:</label>
+                        <input type="text" id="campociudad"  placeholder="mm/dd/aaaa" />
+                    
+                        <label class="right-inline">Género:</label>
+                        <input type="checkbox" id="genero" name="genero1" value="Mujer">
+                        <label for="genero1"> Mujer</label>
+                        <input type="checkbox" id="genero" name="genero2" value="Hombre">
+                        <label for="genero2"> Hombre</label>
+                      </div>
+
+                    <div class="form">
+                        <label>Grado:</label>
+                        <input type="checkbox" id="grado0" name="preescolar" value="Grado">
+                        <label for="grado0"> Preescolar</label>
+
+                        <input type="checkbox" name="grado1"> 1º
+
+                        <input type="checkbox" name="grado2"> 2º
+     
+                        <input type="checkbox" name="grado3">3º
+
+                        <input type="checkbox" name="grado4">4º
+
+                        <input type="checkbox" name="grado5">5º
+                      
+                    </div>
+
+                    <br>
+                    <h3>¿De que escuela vives mas cerca?</h3>
+                    <br>
+                    <div class="form-escuela">
+                        <label><strong>Escuela más cercana:</strong></label><br>
+                        <div class="checkbox-container">
+                            <div class="row1">
+                              <div>
+                                <input class="checkbox" type="checkbox" name="AJ Katzenmaier"> AJ Katzenmaier
+                              </div>
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Greenbay"> Greenbay 
+                              </div>
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Howard A Yeager"> Howard A Yeager 
+                              </div>
+                            </div>
+                            <div class="row2">
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Marjorie P Hart"> Marjorie P Hart   
+                              </div>
+                              <div>
+                                <input class="checkbox" type="checkbox" name="North Elementary"> North Elementary  
+                              </div>
+                               <div>
+                                <input class="checkbox" type="checkbox" name="South Elementary"> South Elementary    
+                               </div>
+                             </div>    
+                        </div>
+                    </div> 
+
+
+                    <br>
+                    <div class="form-escuela">
+                        <label><strong>¿Qué posición(es) juegas normalmente? (marque todas las que correspondan)</strong></label><br>
+                        <div class="checkbox-container">
+                            <div class="row1">
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Delantero"> Delantero
+                              </div>
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Portero"> Mediocampo
+                              </div>
+                            </div>
+                            <div class="row2">
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Portero"> Portero   
+                              </div>
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Defensa"> Defensa  
+                              </div>  
+                        </div>
+                    </div>
+                  </div>
+
+
+                    <br>
+                    <div class="form-escuela">
+                        <label><strong>Tamaño Uniforme:</strong></label><br>
+                        <div class="checkbox-container">
+                            <div class="row1">
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Niño P"> Niño P
+                              </div>
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Niño M"> Niño M
+                              </div>
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Niño G"> Niño G
+                              </div>
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Pequeño"> Pequeño
+                              </div>
+                            </div>
+                            <div class="row2">
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Mediano"> Mediano   
+                              </div>
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Grande"> Grande  
+                              </div>  
+                              <div>
+                                <input class="checkbox" type="checkbox" name="Extra-Grande"> Extra-Grande  
+                              </div> 
+                        </div>
+                    </div>  
+                </div>
+
+                <br>
+                    <label><strong>Permiso para jugar</strong></label><br>
+                    <p style="text-align: justify;">Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+                        yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+                        de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro
+                        para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+                        personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+                        cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+                        solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+                        Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+                        que he leído la política de cancelación y acepto sus términos.</p>
+                        <br>
+
+                        <p>Firma Padre/Tutor: ______________________________________   Fecha:__________________________</p>
+                 <br><br>    
+            </div>
+        <footer>
+                <p>© Copyright 2020 - Diseñado por Melissa Urzúa - Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
